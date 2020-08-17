@@ -1,0 +1,210 @@
+
+
+* {
+font-family: 'YuGothic','Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', 'Meiryo','ＭＳ ゴシック',sans-serif;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Yu Gothic";
+   background-color: #fff;
+   letter-spacing : 0.2em;
+}
+
+header {
+   padding: 30px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 95%;
+   background-color: #87ceeb;
+   display: flex;
+   align-items: center;
+}
+
+
+h1 {
+   margin: 0; padding: 0;
+   font-size: 45px;
+   color: #696969;
+}
+
+a {  
+   text-decoration: none;
+   color: #fff;
+}
+
+nav {
+   margin: 0 0 0 auto;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+li {
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+.main-visual {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: url('https://cdn.pixabay.com/photo/2015/09/05/21/51/reading-925589_960_720.jpg') top center / cover no-repeat;
+}
+
+
+h2 {
+   margin: 0;
+   font-size: 30px;
+   font-weight: normal;
+   color: ;
+}
+   
+
+.box1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+    background: #fff;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+
+/* container */
+.wrapper{
+    width:100%;
+}
+.wrapper .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:80px 0px;
+}
+/* content */
+.wrapper .content .heading{
+    margin:0px 0px 40px 0px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .wrapper .content .list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.wrapper .content .list-item {
+    margin:50px 0px;
+    padding:0px 50px;
+    text-align:center;
+}
+@media (min-width: 992px) {
+    .wrapper .content .list-item {
+        margin:0px;
+        width:calc(100% / 3);
+    }
+}
+.wrapper .content .list-item .image{
+    display:block;
+    width:100%;
+    max-width:300px;
+    margin:0px auto 20px auto;
+    border-radius:100%;
+}
+.wrapper .content .list-item .text{
+    line-height:1.8rem;
+    font-size:0.8rem;
+    color:#666666;
+}
+
+.jigyobox1 {
+    padding: 1em 1.5em;
+    margin: 4em 0;
+    border: solid 2px #3cb3e4;/*線*/
+    background-color: #fff
+    font-size: 30px;
+}
+.jigyobox1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.articles {
+    padding: 1em 1.5em;
+    margin: 2em 0;
+    border: solid 2px #87cefa;/*線*/
+    background-color: #fff
+}
+
+.list02 {
+  counter-reset:number; /*数字をリセット*/
+  list-style-type: none!important; /*数字を一旦消す*/
+  padding:0;
+}
+.list02 li {
+  position: relative;
+  padding: 0.5em;
+  line-height: 1.5em;
+  background:#f5fffa;
+  border-left : solid 35px #87cefa;
+  margin-bottom: 5px;
+}
+.list02 li:before{
+
+  /*数字のデザイン変える*/
+  display:inline-block;
+  color: white;
+  font-family: 'Avenir','Arial Black','Arial',sans-serif;
+  font-weight:bold;
+  font-size: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: -35px;
+  width: 35px;
+  height: 1em;
+  line-height: 1;
+  text-align: center;
+}
+
+
+
+
+
+
+
+ul2{
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 40%;
+text-align: center;
+}
+ul2 li{
+display: table-cell;
+min-width: 50px;
+}
+ul2 li a{
+display: block;
+width: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #c0c0c0  ;
+font-weight: bold;
+font-family: Avenir;
+}
+ul2 li.current{
+background-color: #DEEBF7;
+}
+ul2 li.current a{
+color: #e0e8ff;
+}
+ul2 li:hover{
+background-color: #FFF2CC;

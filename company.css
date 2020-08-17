@@ -1,0 +1,148 @@
+* {
+font-family: 'YuGothic','Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', 'Meiryo','ＭＳ ゴシック',sans-serif;
+}
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Yu Gothic";
+  background: #96403856;
+   letter-spacing : 0.2em;
+   background-color: #fff
+}
+
+header {
+   padding: 30px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 95%;
+   background-color: #transparent;
+   display: flex;
+   align-items: center;
+    
+}
+
+a {  
+   text-decoration: none;
+   color: #fff;
+}
+
+nav {
+   margin: 0 0 0 auto;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+li {
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+
+.main-visual {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+   background: url('https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80') top center / cover no-repeat;
+}
+
+
+h1 {
+   margin: 0; padding: 0;
+   font-size: 30px;
+   color: #fff;
+   text-align: center
+}
+
+p {
+   font-family: "Yu Gothic";
+  
+}
+
+h {
+  margin: 0; padding: 0;
+   font-size: 50px;
+   color: #fff;
+}
+
+.kigyobox1 {
+    padding: 1em 1.5em;
+    margin: 2em 0;
+    border: solid 2px #3cb3e4;/*線*/
+    background-color: #fff
+}
+.jigyobox1 p {
+    margin: 0; 
+    padding: 0;
+    background-color: #fff
+}
+
+h4 {
+font-size: 30px;  
+}
+
+.newstory {
+    padding: 1em 1.5em;
+    margin: 2em 0;
+    background-color:#f0f8ff;/*背景色*/
+    border-left: solid 10px #3cb3e4;/*左ライン*/
+    color:#000000;/*文字色*/
+}
+.newstory p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+.kaisha {
+width: 100%;
+}
+
+.kaisha th,
+.kaisha td {
+border: 1px solid #ccc;
+padding: 20px;
+}
+
+.kaisha th {
+font-weight: bold;
+background-color: #e0e8ff; 
+}
+
+@media screen and (max-width: 767px) {
+.kaisha,
+.kaisha tr,
+.kaisha td,
+.kaisha th {display:block;}
+.kaisha th {width:auto;}
+}
+
+ul2{
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 40%;
+text-align: center;
+}
+ul2 li{
+display: table-cell;
+min-width: 50px;
+}
+ul2 li a{
+display: block;
+width: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #c0c0c0  ;
+font-weight: bold;
+font-family: Avenir;
+}
+ul2 li.current{
+background-color: #DEEBF7;
+}
+ul2 li.current a{
+color: #e0e8ff;
+}
+ul2 li:hover{
+background-color: #FFF2CC;
